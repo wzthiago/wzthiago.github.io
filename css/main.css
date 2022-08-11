@@ -1,5 +1,5 @@
-footer::after{
-
-    content: "© Copyright meusite.com.br";
-
-}
+@import url(/css/bootstrap.min.css);
+@import url(/css/config.css);
+@import url(/css/global.css);
+@import url(/css/custom.css);
+@import url(/css/responsive.css);

@@ -1,119 +1,280 @@
 <!DOCTYPE html>
-<html>
+<html lang="br">
 
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <link rel="shortcut icon" href="https://avatars.githubusercontent.com/u/43870620?v=4" type="image/x-icon">
-    <title>Thiago - Início</title>
-    <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
 
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='/css/main.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="/css/owl/owl.theme.default.min.css">
+    <link rel="stylesheet" href="/css/main.css" />
+
+    <title>Portfolio</title>
 </head>
 
-<body class="bg-dark container pt-4">
-    <header class="row">
-        <section class="col">
-            <div class="card">
-                <div class="card-body">
-                    <section class="row">
-                        <div class="col-2">
-                            <img class="w-100 rounded-circle img-thumbnail"
-                                src="https://avatars.githubusercontent.com/u/43870620?v=4" alt="Profile">
-                        </div>
-                        <div class="col">
-                            <h1 class="display-4">Thiago Souza</h1>
-                            <hr class="mb-5" />
-                            <a href="/index.html" class="btn btn-outline-primary btn-sm active">Início</a>
-                            <a href="/curriculo.html" class="btn btn-outline-primary btn-sm">Currículo</a>
-                            <a href="/contato.html" class="btn btn-outline-primary btn-sm">Contato</a>
-                        </div>
-                    </section>
+<body>
+    <div class="background"></div>
+    <!-- //HEADER -->
+    <div id="header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#">
+                    <h1 class="title">wzt</h1>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#servicos">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contato">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- //HEADER -->
+
+    <!-- SLIDER -->
+    <div id="slider" class="block">
+        <div class="container pt-5">
+            <div class="row">
+                <div class="col-md-6 align-self-center mb-md-0 mb-4">
+                    <h1>I'm Thiago</h1>
+                    <h4 class="mb-4">Java Fullstack Developer</h4>
+                    <a href="#about"
+                        class="btn button-primay btn-primary button d-md-inline-block d-block mb-md-0 mb-2 mr-md-2">About
+                        me</a>
+                    <a href="https://www.linkedin.com/in/thiago-souza-53b03979/" target="_blank"
+                        class="btn button-primay btn-primary button d-md-inline-block d-block ">Contact</a>
+                </div>
+                <div class="col-md-6 align-self-center text-center">
+                    <img src="/img/pose_46.png" class="img-fluid">
                 </div>
             </div>
-        </section>
-    </header>
+        </div>
+    </div>
+    <!-- SLIDER -->
 
-    <main class="row mt-2">
-        <section class="col">
-            <div class="card">
-                <div class="card-header">Início</div>
-                <div class="card-body">
-                    <h2>Bem vindo a minha página pessoal.</h2>
-                    <h3>Estou me capacitando em desenvolvimento fullStack, veja minha tragetória acadêmica</h3>
-                    <table class="table table-bordered table-hover table-striped">
-                        <thead>
-                            <th>Conhecimento</th>
-                            <th>Detalhe</th>
-                            <th>Nível</th>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td colspan="3" class="text-center">
-                                    Entra21
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>Metodologias Ágeis</td>
-                                <td>Scrum, Kanbam, Git </td>
-                                <td>Básico, mas práticado o curso todo</td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-                <div class="card-footer">
-                    <footer>
-                    </footer>
+    <!-- ABOUT -->
+    <div id="about" class="block">
+        <div class="container pt-6">
+            <div class="row">
+                <div class="col-md-6 align-self-center mb-md-0 mb-4 order-md-1 order-2">
+                    <img src="/img/img_002.png" class="img-fluid">
                 </div>
 
+                <div class="col-md-6 align-self-center order-md-2 order-1">
+                    <h2 class="title">About me</h2>
+                    <h4 class="title">Hello! I'm Thiago de Souza
+                    </h4>
+                    <p class="align-self-center">
+                        I am 31 years old, I live in Florianópolis in the state of SC. <br>
+                        I have a degree in Information Systems, I am currently <br>
+                        learning Java/Angular/Database in the Entra21/Blusoft program, <br>
+                        Java Fullstack course.<br>
+                        I'm looking for an opportunity in the technology area.
+                    </p>
+                    <a href="https://www.linkedin.com/in/thiago-souza-53b03979/" target="_blank"
+                        class="btn button-primay btn-primary button">More Details</a>
+                </div>
             </div>
-        </section>
-    </main>
+        </div>
+    </div>
+    <!-- ABOUT -->
 
-    <!-- main.row
+    <!-- SERVICES -->
+    <div id="servicos" class="block">
+        <div class="container">
+            <h2 class="title text-center">Portfolio</h2>
+            <h4 class="subtitle text-center mb-5">my recent projects</h4>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                    <a href="https://github.com/wzthiago/Projeto-Agenda-Hospitalar" class="destaque" target="_blank">
+                        <div class="img-container">
+                            <img src="/img/gif/agenda_hospitalar.gif" class="img-thumbnail">
+                        </div>
+                        <h5 class="text-uppercase">Hospitalar Agenda </h5>
+                        <p class="mb-0">The initiative is to facilitate the scheduling of medical appointments for
+                            the
+                            patient with professionals from different areas of health. We will initially have three
+                            profiles, the Patient, the Doctor - which can be any healthcare professional - and the
+                            Admin.</p>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                    <a href="#" class="destaque">
+                        <div class="img-container">
+                            <img src="/img/gif/site_portfolio_ex.gif" class="img-fluid">
+                        </div>
+                        <h5 class="text-uppercase">Coming soon</h5>
+                        <p class="mb-0">Practice...</p>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                    <a href="#" class="destaque">
+                        <div class="img-container mb-3">
+                            <img src="/img/gif/portfolio_thiago.gif" class="img-fluid">
+                        </div>
+                        <h5 class="text-uppercase">Portfolio</h5>
+                        <p class="mb-0">My portfolio, is under construction 🛠</p>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                    <a href="#" class="destaque">
+                        <div class="img-container mb-3">
+                            <img src="/img/gif/ccom.gif" class="img-fluid">
+                        </div>
+                        <h5 class="text-uppercase">Coming soon</h5>
+                        <p class="mb-0">More projects will be added...</p>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0 mt-4">
+                    <a href="#" class="destaque">
+                        <div class="img-container mb-3">
+                            <img src="/img/gif/ccom.gif" class="img-fluid">
+                        </div>
+                        <h5 class="text-uppercase">Coming soon</h5>
+                        <p class="mb-0">More projects will be added...</p>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0 mt-4">
+                    <a href="#" class="destaque">
+                        <div class="img-container mb-3">
+                            <img src="/img/gif/ccom.gif" class="img-fluid">
+                        </div>
+                        <h5 class="text-uppercase">Coming soon</h5>
+                        <p class="mb-0">More projects will be added...</p>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0 mt-4">
+                    <a href="#" class="destaque">
+                        <div class="img-container mb-3">
+                            <img src="/img/gif/ccom.gif" class="img-fluid">
+                        </div>
+                        <h5 class="text-uppercase">Coming soon</h5>
+                        <p class="mb-0">More projects will be added...</p>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0 mt-4">
+                    <a href="#" class="destaque">
+                        <div class="img-container mb-3">
+                            <img src="/img/gif/ccom.gif" class="img-fluid">
+                        </div>
+                        <h5 class="text-uppercase">Coming soon</h5>
+                        <p class="mb-0">More projects will be added...</p>
+                    </a>
+                </div>
 
-    col
-        card
-            card-header
-                titulo
-            card-body
-                conteúdo
-            card-footer
-                footer -->
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SERVICES -->
 
 
-    <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    <!-- FOOTER -->
+    <footer id="contato">
+        <div class="container">
+            <div class="email">
+                <img src="/img/paperplane.svg" alt="" />
+                <h2 class="title text-center">Contact me</h2>
+                <h4 class="subtitle text-center mb-4">Send an e-mail!</h4>
+                <form action="mailto:wzthiago@gmail.com?subject=Contato via site pessoal">
+                    <div class="flex-md-grow-1 pr-md-3 pb-md-0 pb-3">
+                        <div class="input-group mb-3">
+                            <label for="name" class="">Name</label>
+                            <input type="text" class="form-control w-100" id="name_input" placeholder="enter your name">
+                        </div>
+                        <div class="input-group mb-3">
+                            <label for="email" class="sr-only">Email</label>
+                            <input type="text" class="form-control w-100" id="emial_input"
+                                placeholder="enter your e-mail">
+                        </div>
+                        <div class="input-group mb-3">
+                            <label for="subject" class="sr-only">Subject</label>
+                            <input type="text" class="form-control w-100" id="message_input" placeholder="subject">
+                        </div>
+
+                        <div class="input-group mb-3">
+                            <span class="input-group-text">Message</span>
+                            <textarea class="form-control" name="mensagem"></textarea>
+                        </div>
+
+                        <div class="card-footer text-center flex-grow-1 flex-md-grow-0 mt-4">
+                            <button type="submit" class="btn btn-light button mb-3 d-md-inline d-block">Send</button>
+                            <button type="reset" class="btn btn-light button mb-3 d-md-inline d-block">Clean</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div class="logo py-4">
+                <div class="row">
+                    <div class="col-md-4 align-self-center text-left text-md-left">
+                        <a class="navbar-brand" href="#">
+                            <h1 class="title">wzt</h1>
+                        </a>
+                    </div>
+                    <div class="col-md-4 align-self-center text-center">
+                        <p class="subtitle">© Copyright wzthiago.github.io</p>
+                    </div>
+                    <div class="col-md-4 align-self-center text-right">
+                        <ul>
+                            <li>
+                                <a href="https://www.linkedin.com/in/thiago-souza-53b03979/" target="_blank"><img
+                                        src="/img/linkedin.png" alt=""></a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/wzthiago" target="_blank"><img src="/img/github.png"
+                                        alt=""></a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/wzthiago/" target="_blank"><img
+                                        src="/img/instagram.png" alt=""></a>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/profile.php?id=100001441924747" target="_blank"><img
+                                        src="/img/facebook.png" alt=""></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- FOOTER -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
         crossorigin="anonymous"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="/js/isotope.pkgd.min.js"></script>
+    <script src="/js/owl.carousel.js"></script>
+    <script src="/js/jquery.magnific-popup.min.js"></script>
+    <script src="/js/main.js"></script>
 
 </body>
 
